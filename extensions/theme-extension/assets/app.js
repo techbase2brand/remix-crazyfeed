@@ -1,9 +1,9 @@
-console.log("app code is working3");
+console.log("app code is working1");
 
 async function extensionData() {
   try {
     const response = await fetch(
-      "https://formats-penn-incidents-er.trycloudflare.com/api/get"
+      "https://angel-sequence-po-paragraph.trycloudflare.com/api/get"
     );
     const instaData = await response.json();
     document.getElementById("instaTitle-os").innerHTML = instaData.instaTitle;
