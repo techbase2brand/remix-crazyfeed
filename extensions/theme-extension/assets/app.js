@@ -1,9 +1,9 @@
-console.log("app code is working1");
+console.log("app code is working0");
 
 async function extensionData() {
   try {
     const response = await fetch(
-      "https://convergence-boxing-candles-dist.trycloudflare.com/api/get"
+      "https://father-msgstr-wooden-guru.trycloudflare.com/api/get"
     );
     const instaData = await response.json();
     document.getElementById("instaTitle-os").innerHTML = instaData.instaTitle;

@@ -8,7 +8,7 @@ export async function loader({ request }) {
   const data = await db.instaFeed.findFirst({ where: { shop: shop } });
   const username = data.instaUsername
   const accessToken =
-    "EAAOqIm0DdnIBO0MkOS87Qty82f9KyEj8TZCaCuAHzMNOTV9alaQJ4LhfLQpia7WHoxJIIxkLNSWcVkuZAhZB8YSiHYScYvNokatRs6VlhcF7ZBIikJNZCCV3GRe0upEzPoBgcK12aiKmjVWV7jBIl2gnyjoYIKF2oX4ptEzvAeJftZAWgzWGhZAfKBhYzjAOZBEjJ8vmUhHhskRt3OihzZACvKJXTM2gZD";
+    "EAAOqIm0DdnIBO57MDBZC7FRk0BeuoSxfAtHzHYUdoj7yb6iPvghPBJvm5lDWQ0k1ZApwlrY2yFsqT31vRWuhzeD3Aa3mDpZCfZBKZBZCEm99jVmXmLdxQddph64clbRKxvzaWErLsIvenUxdCtPdlwEE5ICwcsG7aUDobZCFzHCr4c3m2i97HFPgxd8ZAIuk982Y5sYeKHLGMU8qo44tEfKxP7jqyCkb";
   const instagramAccountId = "17841444577460986";
   let endpoint = `https://graph.facebook.com/v12.0/${instagramAccountId}`;
   let url = `${endpoint}?fields=business_discovery.username(${username}){username,website,name,ig_id,id,profile_picture_url,biography,follows_count,followers_count,media_count,media{id,caption,like_count,comments_count,timestamp,username,media_product_type,media_type,owner,permalink,media_url,children{media_url}}}&access_token=${accessToken}`;
