@@ -2,7 +2,7 @@
 
 name = "remix-os"
 client_id = "c7d9589274bf594697de64f3d64c1a55"
-application_url = "https://angel-sequence-po-paragraph.trycloudflare.com"
+application_url = "https://convergence-boxing-candles-dist.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://angel-sequence-po-paragraph.trycloudflare.com/auth/callback",
-  "https://angel-sequence-po-paragraph.trycloudflare.com/auth/shopify/callback",
-  "https://angel-sequence-po-paragraph.trycloudflare.com/api/auth/callback"
+  "https://convergence-boxing-candles-dist.trycloudflare.com/auth/callback",
+  "https://convergence-boxing-candles-dist.trycloudflare.com/auth/shopify/callback",
+  "https://convergence-boxing-candles-dist.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

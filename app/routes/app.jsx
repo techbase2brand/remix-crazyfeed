@@ -23,16 +23,16 @@ export default function App() {
 
   return (
     <>
-      {/* <script
+      <script
         src="https://cdn.shopify.com/shopifycloud/app-bridge.js"
         data-api-key={apiKey}
-      /> */}
-      {/* <ui-nav-menu>
+      />
+      <ui-nav-menu>
         <Link to="/app" rel="home">
           Home
         </Link>
         <Link to="/app/additional">Additional page</Link>
-      </ui-nav-menu> */}
+      </ui-nav-menu>
       <PolarisAppProvider
         i18n={polarisTranslations}
         linkComponent={RemixPolarisLink}

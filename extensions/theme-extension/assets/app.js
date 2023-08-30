@@ -3,7 +3,7 @@ console.log("app code is working1");
 async function extensionData() {
   try {
     const response = await fetch(
-      "https://angel-sequence-po-paragraph.trycloudflare.com/api/get"
+      "https://convergence-boxing-candles-dist.trycloudflare.com/api/get"
     );
     const instaData = await response.json();
     document.getElementById("instaTitle-os").innerHTML = instaData.instaTitle;
